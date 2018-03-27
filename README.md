@@ -61,50 +61,50 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Go to the directory of the new app
     cd ng-fb-host
 
-### Serve it locally and see it in action. Specify host and port, and disable host check if in C9
+### Serve it locally to see it in action. If in C9, specify host and port, and disable host check.
     ng serve --host 0.0.0.0 --port 8080 --disable-host-check
 
 
 ## Creating the Firebase App
 
-    Go to firebase. open account if you don't have one. then create app of same name as the angular app
-    hen install the firebase tools here
+    Go to firebase. Open account, if you don't have one. Create app of same name as the angular app
+    Then install the firebase tools here
+
+### Installing the Firebase Tools
     npm install -g firebase-tools
 
 
-## Installing the Firebase Tools
-
-### Login to firebase from the command line
+### Login to Firebase from the command line
         firebase login --no-localhost
 
-    For C9 you have to add --no-localhost.  Go to the printed url to get/copy a authorization code
-    Then Ppaste the code and hit enter: 
+    For C9 you must add --no-localhost. Go to the printed url to get/copy a authorization code
+    Then paste the code and hit enter: 
 
 
 ## Using Firebase In The Angular App
 
-### Initialize the firebase in the angular app
+### Initialize Firebase in the Angular app
     firebase init
 
 ### Answer the resulting questions
-    Select firebase features you want (space bar selects, arrow keys move between options, enter when done)
-    Change public folder to dist, when prompted
+    Select Firebase features you want (space bar selects, arrow keys move between options, enter when done)
+    Change public folder to *dist*, when prompted
 
-### Here's the answers to the questions Firebase tools will ask:
+### Here are the answers to the questions Firebase tools will ask:
     Are you ready to proceed? Yes
     Which Firebase CLI features? Hosting (In the future, use whatever you need! Press space to select.)
     Select a default Firebase project? ng-fb-host (Choose whatever app you created in the earlier steps)
-    What do you want to use as your public directory? dist (This is important! Angular creates the dist folder.)
+    What do you want to use as your public directory? *dist* (This is important! Angular creates the dist folder.)
     Configure as a single-page app? Yes
 
 
 ## Deploying
 
-### Build the angular app, which creates the angular dist folder
+### Build the Angular app, which creates the Angular *dist* folder
     ng build --prod
 
 
-### Deploy the production app to firebase
+### Deploy the production app to Firebase
     firebase deploy
 
 ### Open the app. Of course, this does not work from C9, but it will give you the url.
@@ -120,13 +120,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     You may have to refresh screen of firebase page
 
 
-## Github
+## GitHub
     git status
     git add .
     git status
     git commit -m 'your commit message'
 
-### Create a repository in github. I used the same name (ng-fb-host)
+### Create a repository in GitHub. I used the same name (ng-fb-host)
 
 ### Then push the existing repository from the command line:
     git remote add origin https://github.com/zjn700/ng-fb-host.git
@@ -135,5 +135,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     https://github.com/zjn700/ng-fb-host
 
 
-REFERENCE:
-https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase
+##REFERENCE:
+    https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase
