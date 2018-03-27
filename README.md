@@ -88,19 +88,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Answer the resulting questions
     Select Firebase features you want (space bar selects, arrow keys move between options, enter when done)
-    Change public folder to *dist*, when prompted
+    Change public folder to _dist_, when prompted
 
 ### Here are the answers to the questions Firebase tools will ask:
     Are you ready to proceed? Yes
     Which Firebase CLI features? Hosting (In the future, use whatever you need! Press space to select.)
     Select a default Firebase project? ng-fb-host (Choose whatever app you created in the earlier steps)
-    What do you want to use as your public directory? *dist* (This is important! Angular creates the dist folder.)
+    What do you want to use as your public directory? _dist_ (This is important! Angular creates the dist folder.)
     Configure as a single-page app? Yes
 
 
 ## Deploying
 
-### Build the Angular app, which creates the Angular *dist* folder
+### Build the Angular app, which creates the Angular _dist_ folder
     ng build --prod
 
 
