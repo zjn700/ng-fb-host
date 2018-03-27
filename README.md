@@ -135,5 +135,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     https://github.com/zjn700/ng-fb-host
 
 
-##REFERENCE:
+## REFERENCE:
     https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase
