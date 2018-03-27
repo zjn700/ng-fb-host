@@ -61,7 +61,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Go to the directory of the new app
     cd ng-fb-host
 
-### Serve it locally and see it in action. Disable host check if in C9
+### Serve it locally and see it in action. Specify host and port, and disable host check if in C9
     ng serve --host 0.0.0.0 --port 8080 --disable-host-check
 
 
@@ -75,9 +75,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installing the Firebase Tools
 
 ### Login to firebase from the command line
-    For c9 add --no-localhost...go to the printed url to get/copy a authorization code
-    Paste the code and hit enter: 
-    firebase login --no-localhost
+        firebase login --no-localhost
+
+    For C9 you have to add --no-localhost.  Go to the printed url to get/copy a authorization code
+    Then Ppaste the code and hit enter: 
 
 
 ## Using Firebase In The Angular App
