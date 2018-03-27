@@ -73,9 +73,9 @@ iojs -> N/A (default)
 
 ## Installing the Firebase Tools
 
-### login to firebase from the command line
-### for c9 add --no-localhost...go to the printed url to get/copy a authorization code
-### paste the code and hit enter 
+### Login to firebase from the command line
+    For c9 add --no-localhost...go to the printed url to get/copy a authorization code
+    Paste the code and hit enter: 
     firebase login --no-localhost
 
 
@@ -84,16 +84,16 @@ iojs -> N/A (default)
 ### initialize the firebase in the angular app
     firebase init
 
-### answer the resulting questions
-### select firebase features you want (space bar selects, arrow keys move between options, enter when done)
-### change public folder to dist, when prompted
+### Answer the resulting questions
+    Select firebase features you want (space bar selects, arrow keys move between options, enter when done)
+    Change public folder to dist, when prompted
 
 ### Here's the answers to the questions Firebase tools will ask:
-Are you ready to proceed? Yes
-Which Firebase CLI features? Hosting (In the future, use whatever you need! Press space to select.)
-Select a default Firebase project? ng-fb-host (Choose whatever app you created in the earlier steps)
-What do you want to use as your public directory? dist (This is important! Angular creates the dist folder.)
-Configure as a single-page app? Yes
+    Are you ready to proceed? Yes
+    Which Firebase CLI features? Hosting (In the future, use whatever you need! Press space to select.)
+    Select a default Firebase project? ng-fb-host (Choose whatever app you created in the earlier steps)
+    What do you want to use as your public directory? dist (This is important! Angular creates the dist folder.)
+    Configure as a single-page app? Yes
 
 
 ## Deploying
