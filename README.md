@@ -80,7 +80,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     firebase login --no-localhost
 
 
-## Using Firebase In Our Angular App
+## Using Firebase In The Angular App
 
 ### Initialize the firebase in the angular app
     firebase init
@@ -106,9 +106,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Deploy the production app to firebase
     firebase deploy
 
-### Open the app...of course, this does not work from c9, but it will give you the url
+### Open the app. Of course, this does not work from C9, but it will give you the url.
     firebase open hosting:site
-
 
     https://ng-fb-host.firebaseapp.com
 
@@ -117,7 +116,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     ng build --prod
     firebase deploy
 
-### You may have to refresh screen of firebase page
+    You may have to refresh screen of firebase page
 
 
 ## Github
