@@ -1,6 +1,5 @@
 
-# ng-fb-host
-## Angular Firebase Hosting
+# ng-fb-host: Angular Firebase Hosting
 
 
 ## Preflight
