@@ -37,37 +37,38 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Preflight
 
-### make sure you have the right version of node installed (6 or greater)
+### Make sure you have the right version of node installed (6 or greater)
     nvm ls
     
-### here are the results from my current config:
-->      v6.11.2
-         system
-default -> 6 (-> v6.11.2)
-node -> stable (-> v6.11.2) (default)
-stable -> 6.11 (-> v6.11.2) (default)
-iojs -> N/A (default)
+    Here are the results from my current config:
+    
+    ->      v6.11.2
+             system
+    default -> 6 (-> v6.11.2)
+    node -> stable (-> v6.11.2) (default)
+    stable -> 6.11 (-> v6.11.2) (default)
+    iojs -> N/A (default)
 
-### if angular cli is not installed run:
+### If angular cli is not installed run:
     npm install -g @angular/cli
 
 
 ## Creating an Angular App
 
-### create a new app
+### Create a new app
     ng new ng-fb-host
 
-### go into our new app
+### Go to the directory of the new app
     cd ng-fb-host
 
-### serve it locally and see it in action
+### Serve it locally and see it in action. Disable host check if in C9
     ng serve --host 0.0.0.0 --port 8080 --disable-host-check
 
 
 ## Creating the Firebase App
 
-### go to firebase. open account if you don't have one. then create app of same name as the angular app
-### then install the firebase tools here
+    Go to firebase. open account if you don't have one. then create app of same name as the angular app
+    hen install the firebase tools here
     npm install -g firebase-tools
 
 
@@ -81,7 +82,7 @@ iojs -> N/A (default)
 
 ## Using Firebase In Our Angular App
 
-### initialize the firebase in the angular app
+### Initialize the firebase in the angular app
     firebase init
 
 ### Answer the resulting questions
@@ -102,21 +103,21 @@ iojs -> N/A (default)
     ng build --prod
 
 
-### deploy the production app to firebase
+### Deploy the production app to firebase
     firebase deploy
 
-### open the app...of course, this does not work from c9, but it will give you the url
+### Open the app...of course, this does not work from c9, but it will give you the url
     firebase open hosting:site
 
 
-https://ng-fb-host.firebaseapp.com
+    https://ng-fb-host.firebaseapp.com
 
 
 ## Update app by rebuilding and redeploying
     ng build --prod
     firebase deploy
 
-### may have to refresh screen of firebase 
+### You may have to refresh screen of firebase page
 
 
 ## Github
@@ -125,15 +126,13 @@ https://ng-fb-host.firebaseapp.com
     git status
     git commit -m 'your commit message'
 
-### create a repository in github. i used the same name (ng-fb-host)
+### Create a repository in github. I used the same name (ng-fb-host)
 
-### then push the existing repository from the command line:
+### Then push the existing repository from the command line:
     git remote add origin https://github.com/zjn700/ng-fb-host.git
     git push -u origin master
 
-https://github.com/zjn700/ng-fb-host
-
-
+    https://github.com/zjn700/ng-fb-host
 
 
 REFERENCE:
